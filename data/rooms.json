@@ -1,0 +1,10 @@
+{
+  "public": {
+    "subject": "Public Room",
+    "host": "system",
+    "created_at": 1762288199,
+    "channels": {
+      "general": []
+    }
+  }
+}

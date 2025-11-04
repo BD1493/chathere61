@@ -1,0 +1,1 @@
+<?php header('Content-Type: application/json'); $room=trim($_GET['room']??''); $channel=trim($_GET['channel']??''); $data=file_exists(__DIR__.'/../data/rooms.json')?json_decode(file_get_contents(__DIR__.'/../data/rooms.json'),true):[]; echo json_encode(['exists'=>isset($data[$room]['channels'][$channel])]); ?>

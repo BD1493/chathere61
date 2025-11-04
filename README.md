@@ -1,0 +1,1 @@
+Full chat app with auth and passwords. See API endpoints in /api. Make data/ writable.
